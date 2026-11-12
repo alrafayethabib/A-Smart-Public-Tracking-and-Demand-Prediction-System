@@ -6,7 +6,7 @@
   <br />
   <br />
 
-  # 🚌 Pothe (পথে): A Smart Public Transport Tracking & Demand Prediction System
+  # 🚌 Pothe: A Smart Public Transport Tracking & Demand Prediction System
 
   <p align="center">
     <b>A low-cost, human-assisted smart public transport ecosystem connecting passengers, checkers, bus owners, and government policymakers.</b>
@@ -37,7 +37,7 @@
 
 ## 📖 About The Project
 
-**Pothe (“পথে”)** is a web-based smart public transport ecosystem where human checkers, general passengers, bus owners, and government authorities share a central source of real-time transport intelligence. 
+**Pothe is a web-based smart public transport ecosystem where human checkers, general passengers, bus owners, and government authorities share a central source of real-time transport intelligence. 
 
 Instead of relying on expensive GPS hardware installed on every local bus, **Pothe** leverages existing human checkers stationed at fixed checkpoints along a route. By combining trusted checkpoint passenger counts with historical segment speeds and live Google Maps traffic data, Pothe accurately estimates bus locations, predicts arrival probabilities, displays crowd levels, and generates actionable demand reports for bus operators and policymakers.
 
