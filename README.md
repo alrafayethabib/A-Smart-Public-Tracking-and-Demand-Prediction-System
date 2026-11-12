@@ -218,6 +218,9 @@ This project was developed as part of the **System Analysis & Design Capstone Pr
 
 ---
 
+---
+
 <div align="center">
-  <p> Make for development smarter public transport in Bangladesh.</p>
+  <p>We make a better public transport system for Bangladesh.</p>
+  <p>Made by <a href="https://github.com/alrafayethabib">Al Rafayet Habib</a></p>
 </div>
