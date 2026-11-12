@@ -9,16 +9,6 @@
   See exactly where your bus is, how crowded it is, and when it will arrive.
 </p>
 
-<br>
-
-<!-- UI Showcase Images -->
-<p align="center">
-  <img src="assets/admin_dashboard.jpeg" width="600" alt="Pothe Admin Dashboard showing Bus Management and Nilachol Express">
-</p>
-<p align="center">
-  <img src="assets/passenger_app.jpeg" width="300" alt="Pothe Passenger Mobile App showing Nilachol Express Route">
-</p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/React-PWA-blue.svg" alt="React">
   <img src="https://img.shields.io/badge/Node.js-Backend-green.svg" alt="Node.js">
