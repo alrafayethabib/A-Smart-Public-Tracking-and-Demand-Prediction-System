@@ -107,12 +107,11 @@ A comprehensive web dashboard empowering System Admins, Bus Owners, and Governme
 | User Role | Core Capabilities |
 | :--- | :--- |
 | 🧍 Passenger | • OTP-verified registration & guest browsing<br>• Destination search & traffic-ranked route recommendations<br>• View approaching buses behind the stop with 
-Most Likely / Less Likely** tiers & ETA<br>• View live bus crowd levels and raw sitting/standing counts from checkers<br>• Subscribe to bus arrival alerts & file/track complaints |
-| **📋 Checker** | • Ultra-fast 3-tap interface to select Bus ID and input sitting & standing counts<br>• Automatic server-side timestamp & **PostGIS geofence validation**<br>• **Offline Queue & Sync** (stores entries locally when offline with original timestamps)<br>• Time-windowed entry correction with full audit logging |
-| **🚌 Bus Owner** | • Track estimated bus positions and last checkpoint records across the fleet<br>• Analyze passenger load and demand trends per bus<br>• View and respond to passenger complaints regarding bus staff |
-| **🏛️ Government Authority** | • View route-wise and checkpoint-wise passenger demand analytics<br>• Access weekly, monthly, 6-monthly, and annual statistical reports<br>• Monitor complaint statistics by route, company, and category<br>• Export reports in **PDF** and **CSV** formats for transport planning |
-| **🛡️ System Admin** | • Manage routes, ordered checkpoints, buses, users, and checker shift assignments<br>• Review flagged anomalous entries and checker complaints<br>• Monitor immutable system-wide audit logs |
-
+ Most Likely / Less Likely** tiers & ETA<br>• View live bus crowd levels and raw sitting/standing counts from checkers<br>• Subscribe to bus arrival alerts & file/track complaints |
+| 📋 Checker | • Ultra-fast 3-tap interface to select Bus ID and input sitting & standing counts<br>• Automatic server-side timestamp & **PostGIS geofence validation**<br>• Offline Queue & Sync (stores entries locally when offline with original timestamps)<br>• Time-windowed entry correction with full audit logging |
+| 🚌 Bus Owner | • Track estimated bus positions and last checkpoint records across the fleet<br>• Analyze passenger load and demand trends per bus<br>• View and respond to passenger complaints regarding bus staff |
+| 🏛️ Government Authority | • View route-wise and checkpoint-wise passenger demand analytics<br>• Access weekly, monthly, 6-monthly, and annual statistical reports<br>• Monitor complaint statistics by route, company, and category<br>• Export reports in **PDF** and **CSV** formats for transport planning |
+| 🛡️ System Admin | • Manage routes, ordered checkpoints, buses, users, and checker shift assignments<br>• Review flagged anomalous entries and checker complaints<br>• Monitor immutable system-wide audit logs |
 ---
 
 ## 🛠️ Tech Stack
