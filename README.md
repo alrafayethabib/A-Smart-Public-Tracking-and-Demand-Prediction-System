@@ -94,7 +94,7 @@ A comprehensive web dashboard empowering **System Admins**, **Bus Owners**, and 
 
 <div align="center">
   <!-- 3rd Image: Admin & Government Dashboard Screenshot -->
-  <img src="https://github.com/alfayethabib/Pothe/blob/f1dbc0835ebdfd1ce4be2210fb66a1c902c7e49a/Admin_view.jpeg" alt="Pothe Admin and Government Dashboard" width="90%" />
+  <img src="https://github.com/alrafayethabib/Pothe/blob/52e4def4467b3b66c3c478b51acee2f617a3d1c6/Admin_view.jpeg" alt="Pothe Admin and Government Dashboard" width="90%" />
 </div>
 
 * **Bus, Route & Checkpoint Management:** Admins can register buses with unique IDs, configure ordered checkpoints with geofences, and assign checkers to shifts.
