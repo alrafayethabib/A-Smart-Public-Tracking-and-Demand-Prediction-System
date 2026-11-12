@@ -6,7 +6,7 @@
   <br />
   <br />
 
-  # 🚌 Pothe (পথে): A Smart Public Transport Tracking & Demand Prediction System
+  # 🚌 Pothe : A Smart Public Transport Tracking & Demand Prediction System
 
   <p align="center">
     <b>A low-cost, human-assisted smart public transport ecosystem connecting passengers, checkers, bus owners, and government policymakers.</b>
@@ -37,7 +37,7 @@
 
 ## 📖 About The Project
 
-**Pothe (“পথে”)** is a web-based smart public transport ecosystem where human checkers, general passengers, bus owners, and government authorities share a central source of real-time transport intelligence. 
+**Pothe** is a web-based smart public transport ecosystem where human checkers, general passengers, bus owners, and government authorities share a central source of real-time transport intelligence. 
 
 Instead of relying on expensive GPS hardware installed on every local bus, **Pothe** leverages existing human checkers stationed at fixed checkpoints along a route. By combining trusted checkpoint passenger counts with historical segment speeds and live Google Maps traffic data, Pothe accurately estimates bus locations, predicts arrival probabilities, displays crowd levels, and generates actionable demand reports for bus operators and policymakers.
 
@@ -48,11 +48,16 @@ Instead of relying on expensive GPS hardware installed on every local bus, **Pot
 Public bus commuters, operators, and transport authorities face several critical challenges daily:
 
 1. **Unknown Bus Locations:** Passengers wait at stops with no way of knowing which buses are approaching or when they will arrive, especially during peak hours or bad weather.
-2. **Unknown Crowd Levels:** Commuters cannot tell whether an approaching bus has available seats or is already overcrowded.
-3. **Multi-Company Route Confusion:** Multiple bus companies operate on overlapping corridors, but passengers lack a unified platform to compare all available buses heading to their destination.
-4. **High Hardware Cost for Owners:** Installing and maintaining dedicated GPS trackers on every local bus is costly for small operators, leaving owners blind to bus positions and passenger loads.
-5. **Lack of Accountability:** Passengers have no structured channel to report staff misbehavior or inaccurate checker counts.
-6. **No Demand Data for Policymakers:** Passenger load per route and stop is not statistically recorded, forcing route allocation decisions to rely on guesswork.
+2. 
+3. **Unknown Crowd Levels:** Commuters cannot tell whether an approaching bus has available seats or is already overcrowded.
+4. 
+5. **Multi-Company Route Confusion:** Multiple bus companies operate on overlapping corridors, but passengers lack a unified platform to compare all available buses heading to their destination.
+6. 
+7. **High Hardware Cost for Owners:** Installing and maintaining dedicated GPS trackers on every local bus is costly for small operators, leaving owners blind to bus positions and passenger loads.
+8. 
+9. **Lack of Accountability:** Passengers have no structured channel to report staff misbehavior or inaccurate checker counts.
+10. 
+11. **No Demand Data for Policymakers:** Passenger load per route and stop is not statistically recorded, forcing route allocation decisions to rely on guesswork.
 
 ---
 
@@ -65,9 +70,12 @@ Pothe operates through a seamless 4-step workflow:
 ```
 
 1. **📋 Checker Records:** At fixed, geofenced checkpoints along a route, a checker selects the **Bus ID** and enters the number of **sitting** and **standing** passengers in just three taps. The server automatically attaches the timestamp and checkpoint coordinates.
-2. **🧠 System Estimates:** Pothe combines the last recorded checkpoint pass of each bus with historical segment speeds and live **Google Maps traffic** to estimate its real-time position between checkpoints.
-3. **🚏 Passenger Decides:** Passengers searching for a destination see approaching buses behind them categorized into two probability tiers (**Most Likely** and **Less Likely**), complete with Estimated Time of Arrival (ETA), Bus ID, company name, and live crowd badges.
-4. **📊 Owners & Government Use the Data:** Bus owners monitor their fleet and passenger loads, while government authorities access weekly, monthly, six-monthly, and annual demand and complaint analytics.
+2. 
+3. **🧠 System Estimates:** Pothe combines the last recorded checkpoint pass of each bus with historical segment speeds and live **Google Maps traffic** to estimate its real-time position between checkpoints.
+4. 
+5. **🚏 Passenger Decides:** Passengers searching for a destination see approaching buses behind them categorized into two probability tiers (**Most Likely** and **Less Likely**), complete with Estimated Time of Arrival (ETA), Bus ID, company name, and live crowd badges.
+6. 
+7. **📊 Owners & Government Use the Data:** Bus owners monitor their fleet and passenger loads, while government authorities access weekly, monthly, six-monthly, and annual demand and complaint analytics.
 
 ---
 
@@ -82,8 +90,11 @@ The passenger-facing Progressive Web App (PWA) is designed to run smoothly even 
 </div>
 
 * **Live Route & Bus Tracking:** View approaching buses on the map with estimated positions between checkpoints.
+* 
 * **Arrival Probability & ETA:** See buses behind you sorted into **Most Likely** and **Less Likely** tiers with real-time ETA.
+* 
 * **Crowd Level Badges:** Check sitting and standing passenger counts recorded at the latest checkpoint before boarding.
+* 
 * **Destination Search & Accountability:** Find traffic-ranked routes to your destination and submit complaints against bus staff or checkers if needed.
 
 ---
@@ -97,7 +108,9 @@ A comprehensive web dashboard empowering **System Admins**, **Bus Owners**, and 
 </div>
 
 * **Bus, Route & Checkpoint Management:** Admins can register buses with unique IDs, configure ordered checkpoints with geofences, and assign checkers to shifts.
+* 
 * **Government Demand Analytics:** Generate and export (**PDF / CSV**) periodic reports (weekly, monthly, six-monthly, yearly) on route demand, checkpoint crowding, and complaint statistics.
+* 
 * **Immutable Audit Trail & Anomaly Detection:** Automatically flags implausible passenger counts and logs every entry, correction, and account action for transparency.
 
 ---
@@ -107,9 +120,13 @@ A comprehensive web dashboard empowering **System Admins**, **Bus Owners**, and 
 | User Role | Core Capabilities |
 | :--- | :--- |
 | **🧍 Passenger** | • OTP-verified registration & guest browsing<br>• Destination search & traffic-ranked route recommendations<br>• View approaching buses behind the stop with **Most Likely / Less Likely** tiers & ETA<br>• View live bus crowd levels and raw sitting/standing counts from checkers<br>• Subscribe to bus arrival alerts & file/track complaints |
+
 | **📋 Checker** | • Ultra-fast 3-tap interface to select Bus ID and input sitting & standing counts<br>• Automatic server-side timestamp & **PostGIS geofence validation**<br>• **Offline Queue & Sync** (stores entries locally when offline with original timestamps)<br>• Time-windowed entry correction with full audit logging |
+
 | **🚌 Bus Owner** | • Track estimated bus positions and last checkpoint records across the fleet<br>• Analyze passenger load and demand trends per bus<br>• View and respond to passenger complaints regarding bus staff |
+
 | **🏛️ Government Authority** | • View route-wise and checkpoint-wise passenger demand analytics<br>• Access weekly, monthly, 6-monthly, and annual statistical reports<br>• Monitor complaint statistics by route, company, and category<br>• Export reports in **PDF** and **CSV** formats for transport planning |
+
 | **🛡️ System Admin** | • Manage routes, ordered checkpoints, buses, users, and checker shift assignments<br>• Review flagged anomalous entries and checker complaints<br>• Monitor immutable system-wide audit logs |
 
 ---
@@ -119,13 +136,21 @@ A comprehensive web dashboard empowering **System Admins**, **Bus Owners**, and 
 | Category | Technology | Purpose |
 | :--- | :--- | :--- |
 | **Language** | JavaScript / TypeScript, SQL | Unified full-stack development and relational data queries |
+
 | **Frontend** | React (PWA), Tailwind CSS | Responsive Progressive Web App optimized for mobile & desktop |
+
 | **Backend** | Node.js, Express.js | RESTful API for auth, checker entries, position estimation & reports |
+
 | **Database** | PostgreSQL + **PostGIS** | Relational storage with geospatial queries for checkpoint geofencing |
+
 | **Caching** | Redis | Caching Google Maps traffic data and live bus position predictions |
+
 | **Maps & Traffic** | Google Maps Platform | Maps JavaScript API, Directions API & Distance Matrix for live ETA |
+
 | **Notifications** | Firebase Cloud Messaging (FCM) & SMS Gateway | Push notifications for approaching buses and OTP verification |
+
 | **Testing** | Jest, Postman, Cypress | Unit testing, API validation, and end-to-end (E2E) testing |
+
 | **Design** | Figma, draw.io | UI/UX prototyping, Use Case, ER, and system architecture modeling |
 
 ---
@@ -136,8 +161,11 @@ Follow these steps to set up the **Pothe** project locally on your machine.
 
 ### Prerequisites
 * **Node.js** (v18+ recommended)
+* 
 * **PostgreSQL** (with **PostGIS** extension enabled)
+* 
 * **Redis** server
+* 
 * **Google Maps API Key** (Directions, Distance Matrix, Maps JS enabled)
 
 ### Installation
@@ -212,11 +240,13 @@ Follow these steps to set up the **Pothe** project locally on your machine.
 This project was developed as part of the **System Analysis & Design Capstone Project (Course Code: SE 231)** at **Daffodil International University (DIU)**.
 
 * **Author:** Al Rafayet Habib
+* 
 * **Student ID:** 251-35-084 (Batch: 44, Section: B2, Group: 01)
+* 
 * **Course Teacher / Supervisor:** Abu Toha Md Faisal, Lecturer, Dept. of Software Engineering, DIU
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ for smarter public transport in Bangladesh.</p>
+  <p> **Power By Al Rafayet Habib** </p>
 </div>
