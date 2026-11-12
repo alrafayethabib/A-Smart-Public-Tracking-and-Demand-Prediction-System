@@ -218,5 +218,5 @@ This project was developed as part of the **System Analysis & Design Capstone Pr
 ---
 
 <div align="center">
-  <p>Made with ❤️ for smarter public transport in Bangladesh.</p>
+  <p>We make better public transport System for Bangladesh.</p>
 </div>
