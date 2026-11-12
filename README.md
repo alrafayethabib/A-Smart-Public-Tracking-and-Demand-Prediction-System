@@ -78,7 +78,7 @@ The passenger-facing Progressive Web App (PWA) is designed to run smoothly even 
 
 <div align="center">
   <!-- 2nd Image: User App Screenshot -->
-  <img src="./Gemini_Generated_Image_mqgeommqgeommqge.jpeg" alt="Pothe Passenger Mobile App UI" width="380" />
+  <img src="https://github.com/alrafayethabib/Pothe/blob/70afe6bde0c0438bb5882477e1606048a729f8a4/User_view.jpeg" alt="Pothe Passenger Mobile App UI" width="380" />
 </div>
 
 * **Live Route & Bus Tracking:** View approaching buses on the map with estimated positions between checkpoints.
