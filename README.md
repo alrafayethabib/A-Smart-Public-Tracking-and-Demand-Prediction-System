@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- 1st Image: Project Banner -->
-  <img src="./Gemini_Generated_Image_andvfzandvfzandv.jpeg" alt="Pothe Banner - A Smart Public Transport Tracking and Demand Prediction System" width="100%" />
+  <img src="https://github.com/alrafayethabib/Pothe/blob/79a91f0a358167066fa72db2bfb7b6da3b279664/Pothe_Banner.jpeg" alt="Pothe Banner - A Smart Public Transport Tracking and Demand Prediction System" width="100%" />
 
   <br />
   <br />
